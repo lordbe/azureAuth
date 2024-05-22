@@ -9,7 +9,7 @@ import Examplecomponetn from "./examplecomponetn"
       auth: {
         clientId: "dce9546a-f808-440b-97df-a632542683b7",
         authority: "https://login.microsoftonline.com/d47f94f9-c2b2-4509-840c-d19cd63c7ba8", // Replace with your tenant instance
-        redirectUri: "http://localhost:3000/", //"http://localhost:8080/redirect", // Replace with your redirect URI
+        redirectUri: "https://azure-auth-nine.vercel.app/", //"http://localhost:8080/redirect", // Replace with your redirect URI
         scopes: ["user.read"], // Scopes for the desired Microsoft Graph access
       },
       cache: {
